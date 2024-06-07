@@ -1,0 +1,183 @@
+.hackathon-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5; /* Adjust the background color as needed */
+  }
+  
+  .hackathon-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px; /* Adjust the max-width based on your needs */
+    width: 100%;
+    margin: 10px; /* Adjust this margin to keep the spacing less when in full-screen */
+  }
+  
+  .hackathon-content {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .hackathon-content h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .hackathon-content p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .hackathon-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .hackathon-content ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .hackathon-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hackathon-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .register-now {
+    margin-top: 20px;
+  }
+  
+  .register-now a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1e90ff;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .countdown-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .countdown-box div:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e90ff;
+  }
+  
+  .countdown-box div:last-child {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .hackathon-container {
+      flex-direction: column;
+      padding: 15px;
+    }
+  
+    .hackathon-content {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .hackathon-image {
+      margin-bottom: 20px;
+    }
+  
+    .hackathon-content h1 {
+      font-size: 20px;
+    }
+  
+    .hackathon-content p,
+    .hackathon-content ul li {
+      font-size: 14px;
+    }
+  
+    .register-now {
+      text-align: center;
+    }
+  
+    .register-now a {
+      font-size: 16px;
+    }
+  
+    .countdown {
+      justify-content: center;
+    }
+  
+    .countdown-box div:first-child {
+      font-size: 20px;
+    }
+  
+    .countdown-box div:last-child {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hackathon-container {
+      padding: 10px;
+    }
+  
+    .hackathon-image {
+      order: -1;
+    }
+  
+    .hackathon-content h1 {
+      font-size: 18px;
+    }
+  
+    .hackathon-content p,
+    .hackathon-content ul li {
+      font-size: 12px;
+    }
+  
+    .register-now {
+      text-align: center;
+    }
+  
+    .register-now a {
+      font-size: 14px;
+    }
+  
+    .countdown {
+      justify-content: center;
+    }
+  
+    .countdown-box div:first-child {
+      font-size: 18px;
+    }
+  
+    .countdown-box div:last-child {
+      font-size: 10px;
+    }
+  }
+  

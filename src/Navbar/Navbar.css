@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #192a56; /* Adjust this color based on the image */
+    padding: 10px 20px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Adjust this spacing based on your needs */
+  }
+  
+  .logo-placeholder {
+    width: 100px; /* Adjust the width based on your needs */
+    height: 40px; /* Adjust the height based on your needs */
+    background-color: #273c75; /* Adjust this color based on the image */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar-register button {
+    background-color: #40739e; /* Adjust this color based on the image */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .navbar-register button:hover {
+    background-color: #273c75; /* Adjust this color based on the image */
+  }
+  
